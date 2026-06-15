@@ -1,67 +1,16 @@
-# Task 2 Setup Notes and Investigation
+# ZenteiQ ML Engineer Assignment
 
-## Environment
+## Candidate
+Mahek Begum
 
-* **Platform:** Google Colab
-* **Python Runtime:** Python 3
-* **Hardware Tested:** CPU
-* **Repository:** MaxText
+## Contents
 
-## Installation Steps Performed
+- Task 1: MaxText Data Formats Analysis
+- Task 2: MaxText Setup Investigation
+- Screenshots and Evidence
 
-1. Installed pip, JAX, JAXLIB, and TensorFlow CPU.
-2. Attempted MaxText installation using:
-
-```bash
-pip install git+https://github.com/google/maxtext.git
-```
-
-3. Verification step failed during import.
-
-## Error Encountered
-
-```text
-ModuleNotFoundError: No module named 'pathwaysutils'
-```
-
-## Investigation
-
-To understand the issue, I cloned the MaxText repository and explored the source code.
-
-### Repository cloned successfully
-
-```bash
-git clone https://github.com/AI-Hypercomputer/maxtext.git
-```
-
-### Training script located at
-
-```text
-src/maxtext/trainers/pre_train/train.py
-```
-
-### Dependency causing the issue
-
-```python
-import pathwaysutils
-```
-
-This dependency is not available in the standard Google Colab environment, which prevents the training script from executing successfully.
-
-## Findings
-
-* Synthetic data support exists in:
-  `src/maxtext/input_pipeline/synthetic_data_processing.py`
-
-* Training script exists in:
-  `src/maxtext/trainers/pre_train/train.py`
-
-* Current repository version requires additional dependencies unavailable in standard Colab.
-
-## Conclusion
+## Notes
 
 Task 1 was completed successfully.
 
-Task 2 setup was investigated thoroughly. The current MaxText repository version could not be executed in a standard Google Colab environment due to the missing `pathwaysutils` dependency.
-
-All troubleshooting steps and findings have been documented for review.
+During Task 2 setup, the current MaxText repository required the unavailable dependency `pathwaysutils`, preventing training execution in a standard Google Colab environment. Investigation details and screenshots are included in this repository.
