@@ -1,4 +1,4 @@
-<img width="1620" height="942" alt="image" src="https://github.com/user-attachments/assets/7cc3ff24-74d9-46eb-adc4-0a61442d49af" />
+<!-- <img width="1620" height="942" alt="image" src="https://github.com/user-attachments/assets/7cc3ff24-74d9-46eb-adc4-0a61442d49af" /> -->
 
 # Task 1: Understanding MaxText Data Formats
 ## Candidate: Mahek Begum
