@@ -71,17 +71,7 @@ MaxText supports multiple data input formats for training LLMs. Based on my expl
 | `task1_json_mention.png` | JSON format support |
 | `task1_synthetic_mention.png` | Synthetic data module existence |
 
-## Screenshot Evidence
 
-![Main Documentation](task1_main_page.png.jpg)
-
-![Dataset Type Documentation](task1_dataset_type_mention.png.jpg)
-
-![C4 MLPerf Mention](task1_c4_mention.png.jpg)
-
-![JSON Format Support](task1_json_mention.png.jpg)
-
-![Synthetic Data Support](task1_synthetic_mention.png.jpg)
 
 
 ## Additional Observations
